@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif; 
+}
+body {
+  font-family: "Poppins", "Roboto", "Arial", sans-serif;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5) ;
+    background-color:rgb(185, 247, 205);
+}
+
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: green !important;
+}
+#navbarSupportedContent a{
+    color: rgb(253, 62, 4);
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid green;
+}
+#navbarSupportedContent button:hover{
+    color: white;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+  background: url(images/home.jpg);
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+}
+#home h1{
+  color: white;
+  font-size: 90px;
+  letter-spacing: 3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 0px 1px 0px #ccc,
+  0px 2px 0px #ccc,
+  0px 3px 0px #ccc,
+  0px 4px 0px #ccc,
+  0px 5px 0px #ccc,
+  0px 6px 0px #ccc,
+  0px 7px 0px #ccc;
+}
+#home p1{
+    font-size: 15px;
+    color: #fff;
+}
+#home p2{
+    font-size: 15px;
+    color: #fff;
+}
+#home p3{
+    font-size: 20px;
+    color: #fff;
+}
+#home .input-group{
+    width: 40%;
+    height:45px;
+}
+.signin{
+    background: green !important;
+    color: white !important;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3) ;
+}
+#about{
+    background: url(images/aabout.jpg)no-repeat center/cover;
+}
+#about h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: black;
+}
+#about p {
+  text-align: justify;
+  line-height: 1.8;
+  word-spacing: 1px;
+}
+
+#product{
+    background: #e2f7ad;
+}
+#product h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight:700 ;
+}
+#product img{
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+    margin: 30px;
+}
+.card{
+    width: 300px;
+    height: 300px;
+    background: #b6f3aa !important;
+    border: none !important;
+    box-shadow:15px 20px 20px rgba(0,0,0,.3),
+               inset 4px 4px 10px rgb(112, 39, 131);
+    border-radius: 8% !important;           
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+    transition: .3s; 
+}
+.card:hover{
+    box-shadow: inset 15px 10px 10px rgba(0,0,0,.3),
+                -4px -4px 10px rgb(112, 39, 131);;
+    background-color:rgba(255, 58, 58, 0.445) !important;
+    transition: .3s;           
+}
+#contact img{
+    border-radius: 5%;
+    height: 100%;
+}
+.box{
+    width: 50% !important;
+    margin-top: 10px;
+}
+.form{
+  display: flex;
+  flex-direction: column;  
+}
+#contact input{
+    margin: 20px 0px;
+}
+#contact button{
+    margin: 20px 0px;
+}
+#contact button:hover{
+ background-color: rebeccapurple !important;
+}
+.footer {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footer-text {
+  max-width: 90%;
+  line-height: 1.7;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+    
+
+  
